@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/reset-bootstrap.css">
+    <link rel="stylesheet" href="css/grid-2.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="interface">
+    <div id="left-part">
+        <div class="logo">
+            <h1><img src="img/logo.svg" alt=""></h1>
+            <h2>ADMIN PANEL</h2>
+        </div>
+     <div class="navigation">
+         <ul>
+             <li><a href="#" data-page="home"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+             <li><a href="#" data-page="works"><span class="glyphicon glyphicon-picture"></span> WORKS</a></li>
+             <li><a href="#" data-page="setting"><span class="glyphicon glyphicon-bullhorn"></span> BLOG</a></li>
+             <li><a href="#" data-page="contacts"><span class="glyphicon glyphicon-user"></span> CONTACTS</a></li>
+             <li><a href="#" data-page="setting"><span class="glyphicon glyphicon-cog"></span> SETTINGS</a></li>
+         </ul>    
+     </div>
+     <div class="login">
+         <h2>You are logged in as User</h2>
+     </div>
+     <a class="button" href="#">Exit</a>  
+    </div>
+    <div id="right-part-settings" data-page-content="setting">
+        <div class="row">
+            <div class="col md-4">
+                <div class="panel panel-default">
+                    <h1>SITE HEADER SETTING <span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <h2>Menu links<span class="label label-primary">link</span></h2>
+                    <div class="input-group">
+                       <span class="input-group-addon">Home</span>
+                       <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                       <span class="input-group-addon btn btn-danger">X</span>
+                       
+                    </div>
+                    <div class="input-group">
+                       <span class="input-group-addon">Works</span>
+                       <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                       <span class="input-group-addon btn btn-danger">X</span>
+                    </div>
+                    <div class="input-group">
+                       <span class="input-group-addon">Blog</span>
+                       <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                       <span class="input-group-addon btn btn-danger">X</span>
+                    </div>
+                    <div class="input-group">
+                       <span class="input-group-addon">Education</span>
+                       <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                       <span class="input-group-addon btn btn-danger">X</span>
+                    </div>
+                    <div class="input-group">
+                       <span class="input-group-addon">Contacts</span>
+                       <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                       <span class="input-group-addon btn btn-danger">X</span>
+                    </div>
+                    <h2>Header background<span class="label label-primary">image</span></h2>
+                    <div class="input-group">
+                      <input type="text" class="form-control" aria-describedby="basic-addon2">
+                      <span class="input-group-addon btn btn-primary" id="basic-addon2">View</span>
+                    </div>
+                    <div class="avatar">
+                        <img src="img/GProxpt.jpg" alt="">
+                    </div>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col md-4">
+                <div class="panel panel-default">
+                    <h1>GENERAL SITE SETTING <span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <div class="avatar">
+                        <img src="img/555.PNG" alt="">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon2">Logo url</span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon2">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon2">Slogan</span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon2">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon ">c 2014</span>
+                      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                      <span class="input-group-addon">GVIA Group</span>
+                    </div>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="right-part-contacts" data-page-content="contacts">
+        <div class="row">
+            <div class="col md-4">
+                <div class="panel panel-default">
+                    <h1>CONTACTS <span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <div class="input-group">
+                      <span class="input-group-addon glyphicon glyphicon-earphone" id="basic-addon1"></span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon glyphicon glyphicon-earphone" id="basic-addon1"></span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon glyphicon glyphicon-earphone" id="basic-addon1"></span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon " id="basic-addon1">Skype</span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                    </div>
+                    <h2>Upload Brief<span class="label label-primary">file</span></h2>
+                    <div class="input-group">
+                      <input type="text" class="form-control" aria-describedby="basic-addon2">
+                      <span class="input-group-addon btn btn-primary" id="basic-addon2">View</span>
+                    </div>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col md-4">
+                <div class="panel panel-default">
+                    <h1>SOCIAL NETWORK<span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon2">VK</span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon2">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon2">Facebook</span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon2">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon ">Google+</span>
+                      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                      
+                    </div>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="right-part-works" data-page-content="works">
+        <div class="row">
+            <div class="col md-3">
+                <div class="panel panel-default">
+                    <h1>GENERAL<span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <h2>Place header<span class="label label-primary">title</span></h2>
+                    <div class="input-group">
+                      <span class="input-group-addon " id="basic-addon1">Title</span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group">
+                      <span class="input-group-addon " id="basic-addon1">Sub title</span>
+                      <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                    </div>
+                    <h2>Works list</h2>
+                    <ul class="nav nav-pills">
+                      <li role="presentation" class="active"><a href="#">Home <p>Home</p></a></li>
+                      <li role="presentation" class="active"><a href="#">Profile <p>Profile</p></a></li>
+                    </ul>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="col md-9">
+                <div class="works">
+                    <div class="panel panel-default">
+                    <h1>WORK TITLE<span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <h2>Work header</h2>
+                    <div class="stringer1">
+                        <div class="input-group">
+                          <span class="input-group-addon " id="basic-addon1">Title</span>
+                          <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="stringer2">
+                        <div class="input-group">
+                          <span class="input-group-addon " id="basic-addon1">Title</span>
+                          <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="profiles">
+                        <h2>Work header
+                            <div class="btn-group">
+                              <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add 
+                              <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">   ...
+                              </ul>
+                            </div></h2>
+                        <div class="author">
+                            <div class="avatar">
+                                <img src="img/man.png" alt="">
+                            </div>
+                            <div class="topic">
+                                <h3>Andrey Ilutsa</h3>
+                                <h4>Front end developer</h4>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <div class="avatar">
+                                <img src="img/man.png" alt="">
+                            </div>
+                            <div class="topic">
+                                <h3>Andrey Ilutsa</h3>
+                                <h4>Front end developer</h4>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <div class="avatar">
+                                <img src="img/man.png" alt="">
+                            </div>
+                            <div class="topic">
+                                <h3>Andrey Ilutsa</h3>
+                                <h4>Front end developer</h4>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <div class="avatar">
+                                <img src="img/man.png" alt="">
+                            </div>
+                            <div class="topic">
+                                <h3>Andrey Ilutsa</h3>
+                                <h4>Front end developer</h4>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <div class="avatar">
+                                <img src="img/man.png" alt="">
+                            </div>
+                            <div class="topic">
+                                <h3>Andrey Ilutsa</h3>
+                                <h4>Front end developer</h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="images">
+                        <h2>Image
+                            <div class="btn-group">
+                              <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add 
+                              <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">   ...
+                              </ul>
+                            </div></h2>
+                        <div class="preview">
+                            <div class="avatar">
+                                <img src="img/Preview.png" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="img/Preview.png" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="img/Preview.png" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="img/Preview.png" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="img/Preview.png" alt="">
+                            </div>
+                            <div class="avatar">
+                                <img src="img/Preview.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="right-part-home" data-page-content="home">
+        <div class="row">
+            <div class="col md-4">
+                <div class="panel panel-default">
+                    <h1>USE THE BEST - CREATE THE BEST<span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <h2>Technologies</h2>
+                    <div class="tech">
+                        <div class="brand">
+                            <div class="avatar">
+                                 <img src="img/html.png" alt="">                   
+                            </div>
+                            <div class="inputs">
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-picture" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-link" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>   
+                            </div>
+                        </div>
+                        <div class="brand">
+                            <div class="avatar">
+                                 <img src="img/css3.png" alt="">                   
+                            </div>
+                            <div class="inputs">
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-picture" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-link" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>   
+                            </div>
+                        </div>
+                        <div class="brand">
+                            <div class="avatar">
+                                 <img src="img/javascript.png" alt="">                   
+                            </div>
+                            <div class="inputs">
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-picture" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-link" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>   
+                            </div>
+                        </div>
+                        <div class="brand">
+                            <div class="avatar">
+                                 <img src="img/jquery.png" alt="">                   
+                            </div>
+                            <div class="inputs">
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-picture" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-link" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>   
+                            </div>
+                        </div>
+                        <div class="brand">
+                            <div class="avatar">
+                                 <img src="img/angular.png" alt="">                   
+                            </div>
+                            <div class="inputs">
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-picture" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-link" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>   
+                            </div>
+                        </div>
+                        <div class="brand">
+                            <div class="avatar">
+                                 <img src="img/boostrap.png" alt="">                   
+                            </div>
+                            <div class="inputs">
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-picture" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-link" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>   
+                            </div>
+                        </div>
+                        <div class="brand">
+                            <div class="avatar">
+                                 <img src="img/wordpress.png" alt="">                   
+                            </div>
+                            <div class="inputs">
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-picture" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-link" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>   
+                            </div>
+                        </div>
+                        <div class="brand">
+                            <div class="avatar">
+                                 <img src="img/opencart.png" alt="">                   
+                            </div>
+                            <div class="inputs">
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-picture" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>
+                                 <div class="input-group input-group-sm">
+                                      <span class="input-group-addon glyphicon glyphicon-link" id="sizing-addon3"></span>
+                                      <input type="text" class="form-control"  aria-describedby="sizing-addon3">
+                                 </div>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col md-4">
+                <div class="panel panel-default">
+                    <h1>WHAT ARE WE DOING<span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <h2>Web Sites</h2>
+                    <div class="input-group input-group-sm major" >
+                        <span class="input-group-addon glyphicon glyphicon-picture"  id="sizing-addon3"></span>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <h2>Web Apps</h2>
+                    <div class="input-group input-group-sm major">
+                        <span class="input-group-addon glyphicon glyphicon-picture"  id="sizing-addon3"></span>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <h2>SEO and Marketing </h2>
+                    <div class="input-group input-group-sm major">
+                        <span class="input-group-addon glyphicon glyphicon-picture"  id="sizing-addon3"></span>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <h2>Content management</h2>
+                    <div class="input-group input-group-sm last major">
+                        <span class="input-group-addon glyphicon glyphicon-picture"  id="sizing-addon3"></span>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col md-4">
+                <div class="panel panel-default">
+                    <h1>FEATURES<span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <div class="input-group input-group-sm last major">
+                        <span class="input-group-addon glyphicon glyphicon-picture"  id="sizing-addon3"></span>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col md-4">
+                <div class="panel panel-default">
+                    <h1>ADVANTAGES<span class="glyphicon glyphicon-fullscreen"></span></h1>
+                    <h2>Make specification</h2>
+                    <div class="input-group input-group-sm major">
+                        <span class="input-group-addon glyphicon glyphicon-picture"  id="sizing-addon3"></span>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <h2>Progress on the face</h2>
+                    <div class="input-group input-group-sm major">
+                        <span class="input-group-addon glyphicon glyphicon-picture"  id="sizing-addon3"></span>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <h2>Continious communications</h2>
+                    <div class="input-group input-group-sm last major">
+                        <span class="input-group-addon glyphicon glyphicon-picture"  id="sizing-addon3"></span>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="set-buttons">
+                        <button type="button" class="btn btn-default">Reset</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                    
+                </div>    
+            </div>
+        </div>
+    </div>
+  </div>
+    
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
